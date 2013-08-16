@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.audio.luoo"
+	name="落网FM"
+	version="0.0.1"
+	provider-name="keygle">
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>luoo fm audio plugin</summary>
+        <summary lang="zh">落网FM插件</summary>
+        <description>luoo fm audio plugin</description>
+        <description lang="zh">落网FM插件</description>
+        <platform>all</platform>
+    </extension>
+</addon>
