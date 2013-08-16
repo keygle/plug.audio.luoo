@@ -91,7 +91,7 @@ def getPlayList(musicUrl):
         url = plugin_url+"?act=play&title="+node.getAttribute('title')+"&playUrl="+urllib.quote_plus(node.getAttribute('path'))
         xbmcplugin.addDirectoryItem(handle, url, listitem, False)
     xbmcplugin.endOfDirectory(handle)
-#播放音乐
+#播放单曲音乐
 def play(mp3path,title):
     playlist = xbmc.PlayList(xbmc.PLAYLIST_MUSIC)  #xbmc.PLAYLIST_MUSIC 表示 audio   也可直接用 0 
     playlist.clear() #中止播放列表
